@@ -7,9 +7,8 @@ folder_path = Path(path)
 file_count = len([f for f in folder_path.iterdir() if f.is_file()])
 
 x = path.split('/')
-x.remove(x[-1])
 
-f = open(f"{'/'.join(x)}/main.py", 'w')
+f = open(f"{'/'.join(x)}/main.py", 'ч')
 
 f.write('''
 import pyautogui as pg
