@@ -1,6 +1,6 @@
 from pathlib import Path
 
-path = 'C:/Python/morph/screens'
+path = input('Enter the path to the folder with screenshots: ')
 
 folder_path = Path(path)
 
